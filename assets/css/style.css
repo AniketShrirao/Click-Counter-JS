@@ -100,18 +100,23 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 63%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
-
-
-
-
-
+header .wrapper {
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+  background-color: #2b2e37;
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
 
 /*=================================
   Header styling ends here
@@ -121,12 +126,51 @@ li {
   main styling starts here
 =================================*/
 
+main .wrapper {
+  margin-top: 20px;
+  padding: 25px 5%;
+  background-color: #b19065;
+  background: -webkit-linear-gradient(to right, #8DC26F, #76b852);
+  background: linear-gradient(to right, #8DC26F, #76b852); 
+}
 
+.counter {
+  margin: 30px 14% 50px;
+  padding: 60px 5%;
+  background-color: #b19065;
+  background: -webkit-linear-gradient(to right, #8DC26F, #76b852);
+  background: linear-gradient(to right, #8DC26F, #76b852); 
+  border : 3px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.counter h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
 
+.counter p {
+  font-size: 140px;
+  color: rgb(201, 33, 33);
+}
 
-
-
+button {
+  margin: 5px;
+  padding: 10px 5%;
+  border: none;
+  background-color: #0d2b52;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 
 /*=================================
   main styling ends here
